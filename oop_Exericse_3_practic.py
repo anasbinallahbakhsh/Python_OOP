@@ -1,8 +1,8 @@
-class Laptop:
+class laptop:
 
     def __init__(self, brand, model_name, price):
         self.brand = brand
-        self.name = model_name
+        self.model_name = model_name
         self.price = price
         self.laptop_name = brand + ' ' + model_name
 
@@ -11,6 +11,6 @@ class Laptop:
         return self.price - discount
 
 
-laptop1 = Laptop('hp', 'au11tx', 63000)
+laptop1 = laptop('hp', 'core i6 gen', 9000)
 
-print(laptop1.apply_discount(40))
+print(laptop1.apply_discount(20))
