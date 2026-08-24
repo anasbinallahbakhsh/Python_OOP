@@ -3,12 +3,12 @@ class laptop:
         self.brand=brand
         self.model_name=model_name
         self.price=price
-        self.laptop_name=brand + "",model_name+""
+        self.laptop_name = brand + " " + model_name
     def apply_discount(self,num):
         # self.price
        off_price=(num/100)*self.price
        return self.price - off_price
-laptop5=laptop('dell','core i 6', 8000)
+laptop5=laptop('dell','core,i,six', 8000)
 
 laptop2=laptop('apple','macbook', 20000)
 
