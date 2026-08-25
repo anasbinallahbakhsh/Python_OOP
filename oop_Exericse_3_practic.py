@@ -1,4 +1,5 @@
-class laptop:
+class Laptop:
+    discount_Percent = 10
 
     def __init__(self, brand, model_name, price):
         self.brand = brand
@@ -11,6 +12,6 @@ class laptop:
         return self.price - discount
 
 
-laptop1 = laptop('hp', 'core i6 gen', 9000)
+laptop1 = Laptop('hp', 'core i6 gen', 9000)
 
 print(laptop1.apply_discount(20))
