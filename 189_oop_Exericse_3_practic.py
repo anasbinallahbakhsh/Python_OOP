@@ -12,6 +12,7 @@ class Laptop:
         return self.price - discount
 
 
+
 laptop1 = Laptop('hp', 'core i6 gen', 9000)
 
 print(laptop1.apply_discount(20))
