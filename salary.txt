@@ -1,0 +1,3 @@
+Anas,6000
+Ayan,7000
+Abuzar,9000
